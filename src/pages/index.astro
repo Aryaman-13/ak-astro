@@ -9,7 +9,6 @@ const posts = (await getCollection("blog")).sort(
 
 const last_posts = posts.slice(0, 3);
 ---
-
 <BaseLayout sideBarActiveItemID="home">
   <div class="flex flex-col lg:flex-row">
     <!-- Left Column -->
@@ -18,8 +17,7 @@ const last_posts = posts.slice(0, 3);
         <img
           src="../public/profile_picture.png"
           alt="Profile Picture"
-          class="w-40 h-40 rounded-full border-4 border-gray-300"
-        />
+          class="w-40 h-40 rounded-full border-4 border-gray-300"/>
       </div>
     </div>
     <!-- Right column -->
